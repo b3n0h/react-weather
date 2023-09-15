@@ -1,8 +1,12 @@
 import './App.css';
+import GetWeather from './components/FetchWeather';
 
 function App() {
   return (
-    <div>hello world</div>
+    <div className='container'>
+      <h1>Get Weather</h1>
+      <GetWeather />
+    </div>
   );
 }
 
